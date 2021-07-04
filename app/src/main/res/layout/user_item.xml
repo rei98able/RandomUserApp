@@ -7,7 +7,7 @@
     android:backgroundTint="@color/purple_500"
     android:background="@drawable/item_border"
     android:padding="8dp"
-    android:layout_marginBottom="8dp">
+    android:layout_marginTop="8dp">
 
     <ImageView
         android:id="@+id/userPhoto"
@@ -24,8 +24,6 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toEndOf="@id/userPhoto"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@id/callUser"
-        app:layout_constraintStart_toStartOf="@id/userPhoto"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginStart="10dp"
         tools:text="Andrew Chernyshev"

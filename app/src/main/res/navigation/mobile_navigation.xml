@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/navigation_users_list"
-        android:name="com.kinotech.randomuserapp.ui.dashboard.UserListFragment"
+        android:name="com.kinotech.randomuserapp.ui.user_list.UserListFragment"
         android:label="@string/users_title"
         tools:layout="@layout/fragment_users_list" />
 </navigation>
